@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps with GenAI Demo Class</title>
+
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-gray-800/90 backdrop-blur-md shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center h-16">
+      <h1 class="text-xl font-bold text-teal-400">🚀 DevOps + GenAI</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-teal-400">About</a>
+        <a href="#class" class="hover:text-teal-400">Demo Class</a>
+        <a href="#contact" class="hover:text-teal-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-r from-indigo-900 via-gray-900 to-black">
+    <h2 class="text-4xl md:text-6xl font-extrabold mb-6" data-aos="fade-up">
+      Learn <span class="text-teal-400">DevOps</span> with <span class="text-pink-400">GenAI</span>
+    </h2>
+    <p class="text-lg md:text-2xl max-w-2xl mb-8" data-aos="fade-up" data-aos-delay="200">
+      I am a <strong class="text-teal-400">Certified DevOps Trainer</strong> and I’m launching an exclusive
+      <span class="text-pink-400">DevOps with GenAI Demo Class</span> to help you master modern tools & AI-powered automation.
+    </p>
+    <a href="#class" class="px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-xl text-lg transition">
+      Register for Demo
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-teal-400 mb-12 text-center" data-aos="zoom-in">👨‍🏫 About Me</h3>
+    <div class="text-center max-w-3xl mx-auto" data-aos="fade-up">
+      <p class="text-lg text-gray-300 leading-relaxed">
+        Hello! I’m <span class="text-teal-400 font-semibold">Your Certified DevOps Trainer</span>.  
+        Over the years, I’ve helped professionals and students kickstart their careers in 
+        <strong>Cloud, DevOps, and AI-powered automation</strong>.  
+        Now, I’m combining the best of <span class="text-teal-400">DevOps practices</span> with 
+        <span class="text-pink-400">Generative AI</span> to prepare you for the future of tech.
+      </p>
+    </div>
+  </section>
+
+  <!-- Demo Class Section -->
+  <section id="class" class="py-20 bg-gray-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-pink-400 mb-12 text-center" data-aos="zoom-in">📢 DevOps with GenAI Demo Class</h3>
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div data-aos="fade-right">
+          <h4 class="text-2xl font-semibold mb-4">What You’ll Learn</h4>
+          <ul class="space-y-3 list-disc pl-5 text-gray-300">
+            <li>Introduction to DevOps Culture & Practices</li>
+            <li>Hands-on with CI/CD, Containers & Kubernetes</li>
+            <li>Integrating Generative AI into DevOps pipelines</li>
+            <li>Real-world case studies & career guidance</li>
+          </ul>
+          <p class="mt-6 text-lg text-gray-200">Don’t miss this chance to upskill with cutting-edge DevOps & AI!</p>
+        </div>
+        <div class="flex justify-center" data-aos="fade-left">
+          <img src="https://cdn-icons-png.flaticon.com/512/4712/4712107.png" alt="DevOps with GenAI" class="w-64 h-64 animate-pulse"/>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="#contact" class="px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-xl text-lg transition">Join the Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 max-w-4xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-teal-400 mb-8" data-aos="zoom-in">📩 Contact Me</h3>
+    <p class="mb-6 text-gray-300">Interested in joining the demo or want more details? Get in touch now!</p>
+    <a href="mailto:youremail@example.com" class="px-6 py-3 bg-teal-500 hover:bg-teal-600 text-white rounded-xl text-lg transition">
+      Email Me
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-gray-400">
+    © 2025 DevOps + GenAI Demo Class | Built with ❤️ by Certified DevOps Trainer
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+    lucide.createIcons();
+  </script>
+</body>
+</html>
+
